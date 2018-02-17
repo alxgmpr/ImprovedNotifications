@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="notifcationexamples.NotificationsUIController">
+   <children>
+      <TextArea fx:id="textArea" layoutX="29.0" layoutY="66.0" prefHeight="307.0" prefWidth="542.0" />
+      <HBox alignment="CENTER" layoutY="6.0" prefHeight="55.0" prefWidth="600.0" spacing="50.0">
+         <children>
+            <Button fx:id="taskButton1" mnemonicParsing="false" onAction="#startTask1" text="Task 1" />
+            <Button fx:id="taskButton2" mnemonicParsing="false" onAction="#startTask2" text="Task 2" />
+            <Button fx:id="taskButton3" mnemonicParsing="false" onAction="#startTask3" text="Task 3" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
